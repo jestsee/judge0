@@ -22,7 +22,7 @@ RUN apt-get update && \
     gem install bundler:2.1.4 && \
     npm install -g --unsafe-perm aglio@2.3.0
 
-EXPOSE 2358
+EXPOSE 2359
 
 WORKDIR /api
 
